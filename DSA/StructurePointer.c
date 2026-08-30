@@ -13,7 +13,6 @@ struct Employee {
 struct Employee *head = NULL; 
 struct Employee *temp = NULL; 
 
-// Add new employee
 struct Employee* AddEmployee(struct Employee *head) {
     struct Employee *newEmployee = (struct Employee *)malloc(sizeof(struct Employee));
     printf("Enter the name, Employee-ID, salary, Designation[IT/HR]:\n");
