@@ -13,7 +13,7 @@ public class AccountBoolean {
         this.age = age;
         this.balance = initialBalance;
         this.accountType = accountType;
-        this.status = "Active"; // default
+        this.status = "Active";
     }
 
 
